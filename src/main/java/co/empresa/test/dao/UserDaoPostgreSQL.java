@@ -33,8 +33,7 @@ public class UserDaoPostgreSQL implements UserDao {
 			PreparedStatement preparedStatement = (PreparedStatement) conexion.setPreparedStatement(INSERT_User_SQL);
 			preparedStatement.setString(1, user.getUsername());
 			System.out.println(user.getUsername());
-			preparedStatement.setString(2, user.getPassword());
-			System.out.println(user.getPassword());
+			preparedStatement.setString(2, user.getPass());
 			preparedStatement.setString(3, user.getEmail());
 			System.out.println(user.getEmail());
 			conexion.execute();

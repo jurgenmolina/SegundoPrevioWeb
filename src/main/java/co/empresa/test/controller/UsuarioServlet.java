@@ -271,7 +271,7 @@ public class UsuarioServlet extends HttpServlet {
 		
 		for(User e: users) {
 			
-			if(e.getUsername().equals(user) && e.getPassword().equals(password)) {
+			if(e.getUsername().equals(user) && e.getPass().equals(password)) {
 				
 				User userActual = userDao.selectName(user);
 				

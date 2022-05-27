@@ -19,14 +19,14 @@ public class User implements Serializable {
 	
 	private String username;
 	
-	private String password;
+	private String pass;
 	
 	private String email;
 
-	public User(String username, String password, String email) {
+	public User(String username, String pass, String email) {
 		super();
 		this.username = username;
-		this.password = password;
+		this.pass = pass;
 		this.email = email;
 	}
 
