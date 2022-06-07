@@ -122,7 +122,7 @@ public class UserDaoPostgreSQL implements UserDao {
 		
 		try {
 			PreparedStatement preparedStatement = (PreparedStatement) conexion.setPreparedStatement(SELECT_User_BY_username);
-			preparedStatement.setString(2, username);
+			preparedStatement.setString(1, username);
 			
 			ResultSet rs = conexion.query();
 			

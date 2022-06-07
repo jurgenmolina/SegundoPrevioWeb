@@ -39,10 +39,10 @@
                         <caption>
                             <h2>
                                 <c:if test="${user != null}">
-                                    Editar candidato
+                                    Editar User
                                 </c:if>
                                 <c:if test="${user == null}">
-                                    Agregar nuevo candidato
+                                    Agregar nuevo User
                                 </c:if>
                             </h2>
                         </caption>
