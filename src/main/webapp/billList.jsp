@@ -13,7 +13,7 @@
         <body>
 
             <header>
-                <nav class="navbar navbar-expand-md navbar-dark" style="background-color: tomato">
+                <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #01579B">
                     <div>
                         <a href="#" class="navbar-brand">
      					Gestion de Usuarios BBVA</a>
